@@ -57,33 +57,34 @@
         <span class="material-icons"> more_horiz </span>
         <h2>More</h2>
       </div>
-      <button class="sidebar__tweet">Tweet</button>
+      <!-- onclick="showPost()" -->
+      <button  class="sidebar__tweet" type="button" onclick="focu()">Tweet</button>
     </div>
     <!-- sidebar ends -->
 
     <!-- feed starts -->
-    <div class="feed">
+    <div class="feed" id="feed">
       <div class="feed__header">
         <h2>Home</h2>
       </div>
 
       <!-- tweetbox starts -->
       <div class="tweetBox">
-        <form>
+        <form action="">
           <div class="tweetbox__input">
             <img
               src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
               alt=""
             />
-            <input type="text" placeholder="What's happening?" />
+            <input id="field" type="text" placeholder="What's happening?" />
           </div>
-          <button class="tweetBox__tweetButton">Tweet</button>
+          <button class="tweetBox__tweetButton" type="button" onclick="getForm()">Tweet</button>
         </form>
       </div>
       <!-- tweetbox ends -->
 
       <!-- post starts -->
-      <div class="post">
+      <!-- <div class="post">
         <div class="post__avatar">
           <img
             src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
@@ -95,9 +96,9 @@
           <div class="post__header">
             <div class="post__headerText">
               <h3>
-                Somanath Goudar
+                Ovidio
                 <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span>@somanathg</span
+                  ><span class="material-icons post__badge"> verified </span>@ovidio</span
                 >
               </h3>
             </div>
@@ -115,33 +116,35 @@
             <span class="material-icons"> publish </span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- post ends -->
 
       <!-- post starts -->
-      <div class="post">
-        <div class="post__avatar">
+      <!-- <div class="post"> -->
+        <!-- <div class="post__avatar" id="avatar">
           <img
             src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
             alt=""
           />
-        </div>
+        </div> -->
 
-        <div class="post__body">
-          <div class="post__header">
-            <div class="post__headerText">
+        <!-- <div class="post__body" id="a"> -->
+          <!-- <div class="post__header"> -->
+            <!-- <div class="post__headerText" id="user">
               <h3>
                 Somanath Goudar
-                <span class="post__headerSpecial"
+                <span class="post__headerSpecial" id=""
                   ><span class="material-icons post__badge"> verified </span>@somanathg</span
                 >
               </h3>
-            </div>
-            <div class="post__headerDescription">
+              
+            </div> -->
+            <!-- <div class="post__headerDescription" id="descricao">
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <img
+            </div> -->
+          <!-- </div> -->
+          <!-- /// rr -->
+          <!-- <img
             src="https://www.focus2move.com/wp-content/uploads/2020/01/Tesla-Roadster-2020-1024-03.jpg"
             alt=""
           />
@@ -150,8 +153,8 @@
             <span class="material-icons"> favorite_border </span>
             <span class="material-icons"> publish </span>
           </div>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
       <!-- post ends -->
     </div>
     <!-- feed ends -->
